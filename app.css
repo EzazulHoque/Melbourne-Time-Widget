@@ -1,0 +1,17 @@
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+  .draggable {
+    -webkit-app-region: drag;
+}
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+    user-select:none;
+ }

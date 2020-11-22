@@ -1,0 +1,22 @@
+{
+  "name": "MelbTime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "private": true,
+  "mac": {
+    "category": "com.ezazulhoque"
+  },
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "Ezazul Hoque",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.2",
+    "electron-builder": "^22.9.1"
+  }
+}
